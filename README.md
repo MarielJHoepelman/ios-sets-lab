@@ -96,6 +96,11 @@ Perform the following set operations on the lists below:
 ```swift
 let list1: Set = [1, 3, 4, 6, 2, 7, 9]
 let list2: Set = [3, 7, 13, 10, 4]
+
+print(list1.intersection(list2).sorted()) //prints [3, 4, 7]
+print(list1.symmetricDifference(list2).sorted()) //prints [1, 2, 6, 9, 10, 13]
+print(list1.union(list2).sorted()) //prints [1, 2, 3, 4, 6, 7, 9, 10, 13]
+print(list1.subtracting(list2).sorted()) //prints [1, 2, 6, 9]
 ```
 
 
