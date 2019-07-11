@@ -148,6 +148,8 @@ if spaceships1.isSubset(of: spaceships2) {
 } else {
   print("This is not a subset")
 }
+
+//This code won't compile because data type for 'var spaceships1 = Set()' cannot be infered by program.
 ```
 
 - This code will compile but crash
