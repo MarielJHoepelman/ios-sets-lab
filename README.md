@@ -33,6 +33,14 @@ Determine if a String is a pangram. A pangram is a string that contains every le
 
  e.g `"The quick brown fox jumps over the lazy dog"` is a pangram
  e.g `"The quick brown fox jumped over the lazy dog"` is NOT a pangram
+ ```swift
+ var InputString = "The quick brown fox jumped over the lazy dog"
+ var abcString = "abcdefghijklmnopqrstuvwxyz"
+ let abcSet = Set(abcString)
+ let stringSet = Set(InputString)
+ 
+ print(abcSet.isSubset(of: stringSet))
+ ```
 
 
 ## Question 3
