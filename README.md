@@ -118,7 +118,7 @@ spaceships.insert("Serenity")
 
 print(spaceships.count)
 
-//This code will not compile. Spaceships compiler can't infer data type theredore var is not declared and imnserts cannot be completed/printed.
+//This code will not compile. Spaceships compiler can't infer data type therefore var is not declared and inserts cannot be completed/printed.
 ```
 
 - 3
