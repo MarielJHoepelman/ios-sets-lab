@@ -50,6 +50,16 @@ let arr1 = [2, 4, 5, 6, 8, 10, 12]
 let arr2 = [1, 2, 3, 4, 5, 6]
 let arr3 = [5, 6, 7, 8, 9, 10, 11, 12]
 let arr4 = [1, 3, 4, 5, 6, 7, 9]
+
+let arr1AsSet = Set(arr1)
+let arr2AsSet = Set(arr2)
+let arr3AsSet = Set(arr3)
+let arr4AsSet = Set(arr4)
+
+let setUnion = arr1AsSet.union(arr2AsSet).union(arr3AsSet).union(arr4AsSet)
+print(setUnion)
+let arrayWithNoDupes = Array(setUnion).sorted()
+print(arrayWithNoDupes)
 ```
 
 
