@@ -13,6 +13,19 @@ Input: heights of trees below:
 Output:
 `169.375`
 
+```swift
+var inputArray = [161, 182, 161, 154, 176, 170, 167, 171, 170, 174]
+var inputSet = Set(inputArray)
+var sum = 0
+
+for n in inputSet {
+    sum = (n+sum)
+}
+var average = (Double(sum)/Double(inputSet.count))
+
+print(average)
+```
+
 
 ## Question 2
 
